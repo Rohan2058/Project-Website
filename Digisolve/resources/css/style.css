@@ -580,6 +580,18 @@ footer p {
 	line-height: 1.5;
 }
 
+footer p a {
+	color: grey;
+	text-decoration: none;
+	transition: 130% 5s ease-in-out;
+}
+
+footer p a:hover {
+	color:white;
+	transition:.5s;
+	font-size: 120%;
+}
+
 .footer-box {
 	width: 100%;
 }
